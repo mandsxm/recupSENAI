@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>SENAI - Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body id="login-body">
+
+    <div id="img-login">
+        <img src="/static/industria.png" alt="login-img">
+    </div>
+
+    <div id="cont-login">
+        <div id="card-login">
+            <div id="titulo-login">
+                <h1>SENAI Almoxarifado</h1>
+            </div>
+            <form id="form-login" method="POST" action="/login">
+
+                <label for="email" class="form-label mb-2">Email:</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Digite o email...">
+
+                <label for="senha" class="form-label mb-2 mt-3">Senha:</label>
+                <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite a senha...">
+
+                <button type="submit" class="btn" id="btn-entrar">Entrar</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
