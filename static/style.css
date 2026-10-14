@@ -60,8 +60,8 @@ body {
 #navbar {
     background-color: #1D3273;
     color: white;
-    padding: 10px 20px;
-    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
  
 .nav-link {
@@ -71,10 +71,13 @@ body {
 
 /*TELA TABELA*/
 #tabela {
-    border: 1px solid orange;
+    border-width: 1px;
+    border-style: solid;
+    border-color: orange;
     border-radius: 15px;
     overflow: hidden;
-    margin: 0 20px;
+    margin-left:20px;
+    margin-right: 20px;
 }
 
 
@@ -88,11 +91,16 @@ body {
  
 #card-add {
     background-color: white;
-    border: 1px solid orange;
+    border-width: 1px;
+    border-style: solid;
+    border-color: orange;
     border-radius: 15px;
     padding: 30px;
     width: 500px;
-    margin: 0 auto 40px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
 
 #btn-add {
